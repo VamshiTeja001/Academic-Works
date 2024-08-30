@@ -1,0 +1,385 @@
+* SPICE3 file created from RCAinv2.ext - technology: scmos
+
+.include MagicNames.txt
+.option scale=0.09u
+
+VDD vdd 0 dc 1.8
+
+Vin_1 A1 0 dc pulse(0 0 1000p 9p 9p 1n 5n)
+Vin_5 B1 0 dc pulse(0 1.8 1000p 9p 9p 1n 5n) 
+
+Vin_2 A2 0 dc pulse(0 0 1000p 9p 9p 1n 5n)
+Vin_6 B2 0 dc pulse(0 1.8 1000p 9p 9p 1n 5n)
+
+Vin_3 A3 0 dc pulse(0 1.8 1000p 9p 9p 1n 5n) 
+Vin_7 B3 0 dc pulse(0 0 1000p 9p 9p 1n 5n)
+
+Vin_4 A4 0 dc pulse(0 0 1000p 9p 9p 1n 5n)
+Vin_8 B4 0 dc pulse(0 1.8 1000p 9p 9p 1n 5n)
+
+Vin_9 cin 0 dc pulse(0 0 1000p 9p 9p 1n 5n)
+
+
+M1000 cout4 a_1152_n19# vdd Vdd pfet w=8 l=2
++  ad=40 pd=26 as=2848 ps=1704
+M1001 a_194_n19# a_170_27# gnd Gnd nfet w=4 l=2
++  ad=20 pd=18 as=1920 ps=1408
+M1002 a_921_19# a_892_n19# a_936_n19# Vdd pfet w=16 l=2
++  ad=256 pd=128 as=96 ps=44
+M1003 a_524_n19# a_502_n19# a_524_27# Vdd pfet w=8 l=2
++  ad=40 pd=26 as=48 ps=28
+M1004 a_1200_n19# cout4 gnd Gnd nfet w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1005 vdd B4 a_1055_27# Vdd pfet w=8 l=2
++  ad=0 pd=0 as=48 ps=28
+M1006 a_910_n19# B4 vdd Vdd pfet w=8 l=2
++  ad=40 pd=26 as=0 ps=0
+M1007 cin2 a_216_n19# gnd Gnd nfet w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1008 a_363_n19# cin2 vdd Vdd pfet w=8 l=2
++  ad=40 pd=26 as=0 ps=0
+M1009 a_787_27# a_617_n19# vdd Vdd pfet w=8 l=2
++  ad=48 pd=28 as=0 ps=0
+M1010 a_194_n19# a_170_27# vdd Vdd pfet w=8 l=2
++  ad=40 pd=26 as=0 ps=0
+M1011 a_n44_n19# A1 vdd Vdd pfet w=8 l=2
++  ad=40 pd=26 as=0 ps=0
+M1012 a_736_27# B3 a_736_n19# Gnd nfet w=8 l=2
++  ad=40 pd=26 as=48 ps=28
+M1013 a_478_27# cin2 a_478_n19# Gnd nfet w=8 l=2
++  ad=40 pd=26 as=48 ps=28
+M1014 a_787_n19# a_617_n19# gnd Gnd nfet w=8 l=2
++  ad=48 pd=28 as=0 ps=0
+M1015 S4 a_991_n19# a_1002_19# Vdd pfet w=16 l=2
++  ad=96 pd=44 as=256 ps=128
+M1016 a_1130_n19# a_1106_27# gnd Gnd nfet w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1017 a_1079_n19# a_1055_27# gnd Gnd nfet w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1018 a_119_n19# A1 gnd Gnd nfet w=8 l=2
++  ad=48 pd=28 as=0 ps=0
+M1019 a_928_n19# A4 gnd Gnd nfet w=8 l=2
++  ad=48 pd=28 as=0 ps=0
+M1020 a_736_27# A3 vdd Vdd pfet w=8 l=2
++  ad=48 pd=28 as=0 ps=0
+M1021 a_524_n19# a_451_n19# gnd Gnd nfet w=8 l=2
++  ad=48 pd=28 as=0 ps=0
+M1022 a_143_n19# a_119_27# vdd Vdd pfet w=8 l=2
++  ad=40 pd=26 as=0 ps=0
+M1023 a_216_27# a_143_n19# vdd Vdd pfet w=8 l=2
++  ad=48 pd=28 as=0 ps=0
+M1024 gnd a_37_n19# a_89_n19# Gnd nfet w=8 l=2
++  ad=0 pd=0 as=48 ps=28
+M1025 a_293_19# B2 vdd Vdd pfet w=16 l=2
++  ad=256 pd=128 as=0 ps=0
+M1026 a_991_n19# cin4 vdd Vdd pfet w=8 l=2
++  ad=40 pd=26 as=0 ps=0
+M1027 a_66_19# cin vdd Vdd pfet w=16 l=2
++  ad=256 pd=128 as=0 ps=0
+M1028 a_573_n19# A3 vdd Vdd pfet w=8 l=2
++  ad=40 pd=26 as=0 ps=0
+M1029 a_1250_n19# S4 vdd Vdd pfet w=8 l=2
++  ad=40 pd=26 as=0 ps=0
+M1030 vdd cin4 a_1106_27# Vdd pfet w=8 l=2
++  ad=0 pd=0 as=48 ps=28
+M1031 a_308_n19# B2 a_300_n19# Gnd nfet w=8 l=2
++  ad=48 pd=28 as=48 ps=28
+M1032 a_1200_n19# cout4 vdd Vdd pfet w=8 l=2
++  ad=40 pd=26 as=0 ps=0
+M1033 a_609_n19# A3 gnd Gnd nfet w=8 l=2
++  ad=48 pd=28 as=0 ps=0
+M1034 a_617_n19# a_591_n19# a_602_19# Vdd pfet w=16 l=2
++  ad=96 pd=44 as=256 ps=128
+M1035 gnd a_1130_n19# a_1152_n19# Gnd nfet w=8 l=2
++  ad=0 pd=0 as=48 ps=28
+M1036 a_1009_n19# a_936_n19# gnd Gnd nfet w=8 l=2
++  ad=48 pd=28 as=0 ps=0
+M1037 a_811_n19# a_787_27# gnd Gnd nfet w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1038 a_760_n19# a_736_27# gnd Gnd nfet w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1039 a_910_n19# B4 gnd Gnd nfet w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1040 a_300_n19# A2 gnd Gnd nfet w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1041 a_1152_n19# a_1130_n19# a_1152_27# Vdd pfet w=8 l=2
++  ad=40 pd=26 as=48 ps=28
+M1042 a_921_19# B4 vdd Vdd pfet w=16 l=2
++  ad=0 pd=0 as=0 ps=0
+M1043 a_502_n19# a_478_27# gnd Gnd nfet w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1044 a_1152_n19# a_1079_n19# gnd Gnd nfet w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1045 vdd cin a_170_27# Vdd pfet w=8 l=2
++  ad=0 pd=0 as=48 ps=28
+M1046 a_1250_n19# S4 gnd Gnd nfet w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1047 a_n15_19# B1 vdd Vdd pfet w=16 l=2
++  ad=256 pd=128 as=0 ps=0
+M1048 a_374_19# cin2 vdd Vdd pfet w=16 l=2
++  ad=256 pd=128 as=0 ps=0
+M1049 a_787_27# cin3 a_787_n19# Gnd nfet w=8 l=2
++  ad=40 pd=26 as=0 ps=0
+M1050 a_833_27# a_760_n19# vdd Vdd pfet w=8 l=2
++  ad=48 pd=28 as=0 ps=0
+M1051 a_374_19# a_345_n19# S2 Vdd pfet w=16 l=2
++  ad=0 pd=0 as=96 ps=44
+M1052 gnd a_811_n19# a_833_n19# Gnd nfet w=8 l=2
++  ad=0 pd=0 as=48 ps=28
+M1053 vdd a_936_n19# a_1002_19# Vdd pfet w=16 l=2
++  ad=0 pd=0 as=0 ps=0
+M1054 a_381_n19# a_308_n19# gnd Gnd nfet w=8 l=2
++  ad=48 pd=28 as=0 ps=0
+M1055 a_119_27# B1 a_119_n19# Gnd nfet w=8 l=2
++  ad=40 pd=26 as=0 ps=0
+M1056 a_760_n19# a_736_27# vdd Vdd pfet w=8 l=2
++  ad=40 pd=26 as=0 ps=0
+M1057 cin2 a_216_n19# vdd Vdd pfet w=8 l=2
++  ad=40 pd=26 as=0 ps=0
+M1058 a_591_n19# B3 vdd Vdd pfet w=8 l=2
++  ad=40 pd=26 as=0 ps=0
+M1059 a_936_n19# B4 a_928_n19# Gnd nfet w=8 l=2
++  ad=48 pd=28 as=0 ps=0
+M1060 gnd a_502_n19# a_524_n19# Gnd nfet w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1061 a_833_n19# a_760_n19# gnd Gnd nfet w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1062 vdd B1 a_119_27# Vdd pfet w=8 l=2
++  ad=0 pd=0 as=48 ps=28
+M1063 a_170_n19# a_0_n19# gnd Gnd nfet w=8 l=2
++  ad=48 pd=28 as=0 ps=0
+M1064 a_478_27# a_308_n19# vdd Vdd pfet w=8 l=2
++  ad=48 pd=28 as=0 ps=0
+M1065 cout a_1200_n19# gnd Gnd nfet w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1066 a_316_n19# a_282_n19# a_308_n19# Gnd nfet w=8 l=2
++  ad=48 pd=28 as=0 ps=0
+M1067 S4 cin4 a_1009_n19# Gnd nfet w=8 l=2
++  ad=48 pd=28 as=0 ps=0
+M1068 vdd cin3 a_787_27# Vdd pfet w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1069 a_617_n19# B3 a_609_n19# Gnd nfet w=8 l=2
++  ad=48 pd=28 as=0 ps=0
+M1070 vdd A3 a_602_19# Vdd pfet w=16 l=2
++  ad=0 pd=0 as=0 ps=0
+M1071 a_427_27# A2 vdd Vdd pfet w=8 l=2
++  ad=48 pd=28 as=0 ps=0
+M1072 a_1002_19# a_973_n19# S4 Vdd pfet w=16 l=2
++  ad=0 pd=0 as=0 ps=0
+M1073 a_811_n19# a_787_27# vdd Vdd pfet w=8 l=2
++  ad=40 pd=26 as=0 ps=0
+M1074 vdd A2 a_293_19# Vdd pfet w=16 l=2
++  ad=0 pd=0 as=0 ps=0
+M1075 cin4 a_833_n19# vdd Vdd pfet w=8 l=2
++  ad=40 pd=26 as=0 ps=0
+M1076 a_264_n19# A2 vdd Vdd pfet w=8 l=2
++  ad=40 pd=26 as=0 ps=0
+M1077 cin3 a_524_n19# gnd Gnd nfet w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1078 sum a_1250_n19# vdd Vdd pfet w=8 l=2
++  ad=40 pd=26 as=0 ps=0
+M1079 vdd B3 a_736_27# Vdd pfet w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1080 a_216_n19# a_194_n19# a_216_27# Vdd pfet w=8 l=2
++  ad=40 pd=26 as=0 ps=0
+M1081 S1 a_55_n19# a_66_19# Vdd pfet w=16 l=2
++  ad=96 pd=44 as=0 ps=0
+M1082 a_308_n19# a_282_n19# a_293_19# Vdd pfet w=16 l=2
++  ad=96 pd=44 as=0 ps=0
+M1083 S2 cin2 a_381_n19# Gnd nfet w=8 l=2
++  ad=48 pd=28 as=0 ps=0
+M1084 a_591_n19# B3 gnd Gnd nfet w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1085 a_690_n19# a_617_n19# gnd Gnd nfet w=8 l=2
++  ad=48 pd=28 as=0 ps=0
+M1086 a_944_n19# a_910_n19# a_936_n19# Gnd nfet w=8 l=2
++  ad=48 pd=28 as=0 ps=0
+M1087 vdd a_617_n19# a_683_19# Vdd pfet w=16 l=2
++  ad=0 pd=0 as=256 ps=128
+M1088 a_654_n19# a_617_n19# vdd Vdd pfet w=8 l=2
++  ad=40 pd=26 as=0 ps=0
+M1089 a_991_n19# cin4 gnd Gnd nfet w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1090 a_282_n19# B2 gnd Gnd nfet w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1091 a_170_27# cin a_170_n19# Gnd nfet w=8 l=2
++  ad=40 pd=26 as=0 ps=0
+M1092 a_892_n19# A4 vdd Vdd pfet w=8 l=2
++  ad=40 pd=26 as=0 ps=0
+M1093 S3 a_672_n19# a_683_19# Vdd pfet w=16 l=2
++  ad=96 pd=44 as=0 ps=0
+M1094 a_602_19# a_573_n19# a_617_n19# Vdd pfet w=16 l=2
++  ad=0 pd=0 as=0 ps=0
+M1095 a_427_n19# A2 gnd Gnd nfet w=8 l=2
++  ad=48 pd=28 as=0 ps=0
+M1096 gnd a_264_n19# a_316_n19# Gnd nfet w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1097 a_936_n19# a_910_n19# a_921_19# Vdd pfet w=16 l=2
++  ad=0 pd=0 as=0 ps=0
+M1098 cout a_1200_n19# vdd Vdd pfet w=8 l=2
++  ad=40 pd=26 as=0 ps=0
+M1099 a_524_27# a_451_n19# vdd Vdd pfet w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1100 a_1025_n19# a_991_n19# S4 Gnd nfet w=8 l=2
++  ad=48 pd=28 as=0 ps=0
+M1101 a_1055_27# A4 vdd Vdd pfet w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1102 a_625_n19# a_591_n19# a_617_n19# Gnd nfet w=8 l=2
++  ad=48 pd=28 as=0 ps=0
+M1103 a_282_n19# B2 vdd Vdd pfet w=8 l=2
++  ad=40 pd=26 as=0 ps=0
+M1104 cout4 a_1152_n19# gnd Gnd nfet w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1105 a_216_n19# a_143_n19# gnd Gnd nfet w=8 l=2
++  ad=48 pd=28 as=0 ps=0
+M1106 sum a_1250_n19# gnd Gnd nfet w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1107 a_264_n19# A2 gnd Gnd nfet w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1108 a_451_n19# a_427_27# vdd Vdd pfet w=8 l=2
++  ad=40 pd=26 as=0 ps=0
+M1109 S2 a_363_n19# a_374_19# Vdd pfet w=16 l=2
++  ad=0 pd=0 as=0 ps=0
+M1110 a_363_n19# cin2 gnd Gnd nfet w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1111 a_0_n19# a_n26_n19# a_n15_19# Vdd pfet w=16 l=2
++  ad=96 pd=44 as=0 ps=0
+M1112 a_672_n19# cin3 vdd Vdd pfet w=8 l=2
++  ad=40 pd=26 as=0 ps=0
+M1113 a_1002_19# cin4 vdd Vdd pfet w=16 l=2
++  ad=0 pd=0 as=0 ps=0
+M1114 vdd A1 a_n15_19# Vdd pfet w=16 l=2
++  ad=0 pd=0 as=0 ps=0
+M1115 a_n44_n19# A1 gnd Gnd nfet w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1116 a_n8_n19# A1 gnd Gnd nfet w=8 l=2
++  ad=48 pd=28 as=0 ps=0
+M1117 S1 cin a_73_n19# Gnd nfet w=8 l=2
++  ad=48 pd=28 as=48 ps=28
+M1118 gnd a_345_n19# a_397_n19# Gnd nfet w=8 l=2
++  ad=0 pd=0 as=48 ps=28
+M1119 vdd a_0_n19# a_66_19# Vdd pfet w=16 l=2
++  ad=0 pd=0 as=0 ps=0
+M1120 a_833_n19# a_811_n19# a_833_27# Vdd pfet w=8 l=2
++  ad=40 pd=26 as=0 ps=0
+M1121 a_1106_n19# a_936_n19# gnd Gnd nfet w=8 l=2
++  ad=48 pd=28 as=0 ps=0
+M1122 a_1055_n19# A4 gnd Gnd nfet w=8 l=2
++  ad=48 pd=28 as=0 ps=0
+M1123 cin4 a_833_n19# gnd Gnd nfet w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1124 a_706_n19# a_672_n19# S3 Gnd nfet w=8 l=2
++  ad=48 pd=28 as=48 ps=28
+M1125 vdd cin2 a_478_27# Vdd pfet w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1126 a_0_n19# B1 a_n8_n19# Gnd nfet w=8 l=2
++  ad=48 pd=28 as=0 ps=0
+M1127 a_143_n19# a_119_27# gnd Gnd nfet w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1128 a_397_n19# a_363_n19# S2 Gnd nfet w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1129 a_37_n19# a_0_n19# vdd Vdd pfet w=8 l=2
++  ad=40 pd=26 as=0 ps=0
+M1130 a_73_n19# a_0_n19# gnd Gnd nfet w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1131 a_345_n19# a_308_n19# gnd Gnd nfet w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1132 gnd a_892_n19# a_944_n19# Gnd nfet w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1133 S3 cin3 a_690_n19# Gnd nfet w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1134 a_502_n19# a_478_27# vdd Vdd pfet w=8 l=2
++  ad=40 pd=26 as=0 ps=0
+M1135 a_1106_27# a_936_n19# vdd Vdd pfet w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1136 a_n15_19# a_n44_n19# a_0_n19# Vdd pfet w=16 l=2
++  ad=0 pd=0 as=0 ps=0
+M1137 a_n26_n19# B1 gnd Gnd nfet w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1138 gnd a_n44_n19# a_8_n19# Gnd nfet w=8 l=2
++  ad=0 pd=0 as=48 ps=28
+M1139 a_1152_27# a_1079_n19# vdd Vdd pfet w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1140 a_427_27# B2 a_427_n19# Gnd nfet w=8 l=2
++  ad=40 pd=26 as=0 ps=0
+M1141 a_892_n19# A4 gnd Gnd nfet w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1142 a_602_19# B3 vdd Vdd pfet w=16 l=2
++  ad=0 pd=0 as=0 ps=0
+M1143 cin3 a_524_n19# vdd Vdd pfet w=8 l=2
++  ad=40 pd=26 as=0 ps=0
+M1144 a_1079_n19# a_1055_27# vdd Vdd pfet w=8 l=2
++  ad=40 pd=26 as=0 ps=0
+M1145 a_736_n19# A3 gnd Gnd nfet w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1146 gnd a_973_n19# a_1025_n19# Gnd nfet w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1147 vdd A4 a_921_19# Vdd pfet w=16 l=2
++  ad=0 pd=0 as=0 ps=0
+M1148 gnd a_573_n19# a_625_n19# Gnd nfet w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1149 vdd B2 a_427_27# Vdd pfet w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1150 a_478_n19# a_308_n19# gnd Gnd nfet w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1151 a_55_n19# cin gnd Gnd nfet w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1152 gnd a_194_n19# a_216_n19# Gnd nfet w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1153 a_170_27# a_0_n19# vdd Vdd pfet w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1154 vdd a_308_n19# a_374_19# Vdd pfet w=16 l=2
++  ad=0 pd=0 as=0 ps=0
+M1155 a_573_n19# A3 gnd Gnd nfet w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1156 a_55_n19# cin vdd Vdd pfet w=8 l=2
++  ad=40 pd=26 as=0 ps=0
+M1157 a_345_n19# a_308_n19# vdd Vdd pfet w=8 l=2
++  ad=40 pd=26 as=0 ps=0
+M1158 a_672_n19# cin3 gnd Gnd nfet w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1159 a_n26_n19# B1 vdd Vdd pfet w=8 l=2
++  ad=40 pd=26 as=0 ps=0
+M1160 a_293_19# a_264_n19# a_308_n19# Vdd pfet w=16 l=2
++  ad=0 pd=0 as=0 ps=0
+M1161 a_973_n19# a_936_n19# gnd Gnd nfet w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1162 a_66_19# a_37_n19# S1 Vdd pfet w=16 l=2
++  ad=0 pd=0 as=0 ps=0
+M1163 a_89_n19# a_55_n19# S1 Gnd nfet w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1164 a_8_n19# a_n26_n19# a_0_n19# Gnd nfet w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1165 a_37_n19# a_0_n19# gnd Gnd nfet w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1166 a_1106_27# cin4 a_1106_n19# Gnd nfet w=8 l=2
++  ad=40 pd=26 as=0 ps=0
+M1167 a_1055_27# B4 a_1055_n19# Gnd nfet w=8 l=2
++  ad=40 pd=26 as=0 ps=0
+M1168 gnd a_654_n19# a_706_n19# Gnd nfet w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1169 a_683_19# cin3 vdd Vdd pfet w=16 l=2
++  ad=0 pd=0 as=0 ps=0
+M1170 a_119_27# A1 vdd Vdd pfet w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1171 a_973_n19# a_936_n19# vdd Vdd pfet w=8 l=2
++  ad=40 pd=26 as=0 ps=0
+M1172 a_451_n19# a_427_27# gnd Gnd nfet w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1173 a_683_19# a_654_n19# S3 Vdd pfet w=16 l=2
++  ad=0 pd=0 as=0 ps=0
+M1174 a_1130_n19# a_1106_27# vdd Vdd pfet w=8 l=2
++  ad=40 pd=26 as=0 ps=0
+M1175 a_654_n19# a_617_n19# gnd Gnd nfet w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+
+.tran 1p 9n
+.control
+run
+plot (S1)+2 (S2)+4 (S3)+6 (S4)+8 (cout)+12
+
+plot (A1)+2 (A2)+4 (A3)+6 (A4)+8 (B1)+10 (B2)+12 (B3)+14 (B4)+16 (cin)+18
+
+
+.endc
+.end

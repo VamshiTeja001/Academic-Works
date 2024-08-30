@@ -1,0 +1,403 @@
+timestamp 1701919502
+version 8.3
+tech scmos
+style lambda=1.0(scna20_orb)
+scale 1000 1 100
+resistclasses 26670 59550 23860 19690 27260 2000000 49 26 2505830
+node "a_1106_n19#" 36 0 1106 -19 ndiff 48 28 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "a_1055_n19#" 36 0 1055 -19 ndiff 48 28 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "a_1025_n19#" 36 0 1025 -19 ndiff 48 28 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "a_1009_n19#" 36 0 1009 -19 ndiff 48 28 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "sum" 129 7896 1275 -19 ndiff 20 18 40 26 0 0 0 0 0 0 0 0 216 116 0 0 0 0
+node "cout" 129 7896 1224 -19 ndiff 20 18 40 26 0 0 0 0 0 0 0 0 216 116 0 0 0 0
+node "a_1152_27#" 79 0 1152 27 pdiff 0 0 48 28 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "a_1002_19#" 830 1504 1002 19 pdc 0 0 256 128 0 0 0 0 0 0 0 0 288 152 0 0 0 0
+node "a_944_n19#" 36 0 944 -19 ndiff 48 28 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "a_928_n19#" 36 0 928 -19 ndiff 48 28 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "a_921_19#" 830 1504 921 19 pdc 0 0 256 128 0 0 0 0 0 0 0 0 288 152 0 0 0 0
+node "a_787_n19#" 36 0 787 -19 ndiff 48 28 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "a_736_n19#" 36 0 736 -19 ndiff 48 28 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "a_706_n19#" 36 0 706 -19 ndiff 48 28 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "a_690_n19#" 36 0 690 -19 ndiff 48 28 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "a_833_27#" 79 0 833 27 pdiff 0 0 48 28 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "S3" 195 8272 698 -19 ndiff 48 28 96 44 0 0 0 0 0 0 0 0 256 136 0 0 0 0
+node "a_683_19#" 830 1504 683 19 pdc 0 0 256 128 0 0 0 0 0 0 0 0 288 152 0 0 0 0
+node "a_625_n19#" 36 0 625 -19 ndiff 48 28 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "a_609_n19#" 36 0 609 -19 ndiff 48 28 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "a_602_19#" 830 1504 602 19 pdc 0 0 256 128 0 0 0 0 0 0 0 0 288 152 0 0 0 0
+node "a_478_n19#" 36 0 478 -19 ndiff 48 28 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "a_427_n19#" 36 0 427 -19 ndiff 48 28 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "a_397_n19#" 36 0 397 -19 ndiff 48 28 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "a_381_n19#" 36 0 381 -19 ndiff 48 28 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "a_524_27#" 79 0 524 27 pdiff 0 0 48 28 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "S2" 195 8272 389 -19 ndiff 48 28 96 44 0 0 0 0 0 0 0 0 256 136 0 0 0 0
+node "a_374_19#" 830 1504 374 19 pdc 0 0 256 128 0 0 0 0 0 0 0 0 288 152 0 0 0 0
+node "a_316_n19#" 36 0 316 -19 ndiff 48 28 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "a_300_n19#" 36 0 300 -19 ndiff 48 28 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "a_293_19#" 830 1504 293 19 pdc 0 0 256 128 0 0 0 0 0 0 0 0 288 152 0 0 0 0
+node "a_170_n19#" 36 0 170 -19 ndiff 48 28 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "a_119_n19#" 36 0 119 -19 ndiff 48 28 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "a_89_n19#" 36 0 89 -19 ndiff 48 28 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "a_73_n19#" 36 0 73 -19 ndiff 48 28 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "a_216_27#" 79 0 216 27 pdiff 0 0 48 28 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "S1" 195 8272 81 -19 ndiff 48 28 96 44 0 0 0 0 0 0 0 0 256 136 0 0 0 0
+node "a_66_19#" 830 1504 66 19 pdc 0 0 256 128 0 0 0 0 0 0 0 0 288 152 0 0 0 0
+node "a_8_n19#" 36 0 8 -19 ndiff 48 28 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "a_n8_n19#" 36 0 -8 -19 ndiff 48 28 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "gnd" 15304 370884 -51 -19 ndc 1920 1408 576 576 0 0 0 0 0 0 0 0 10230 3818 366 134 0 0
+node "a_n15_19#" 830 1504 -15 19 pdc 0 0 256 128 0 0 0 0 0 0 0 0 288 152 0 0 0 0
+node "a_1250_n19#" 821 23700 1250 -19 ndiff 20 18 40 26 132 128 0 0 0 0 0 0 288 152 0 0 0 0
+node "S4" 891 76304 1017 -19 ndiff 48 28 96 44 132 128 0 0 0 0 0 0 1360 696 252 134 0 0
+node "a_1200_n19#" 821 23512 1200 -19 ndiff 20 18 40 26 132 128 0 0 0 0 0 0 284 150 0 0 0 0
+node "cout4" 821 23512 1176 -19 ndiff 20 18 40 26 132 128 0 0 0 0 0 0 284 150 0 0 0 0
+node "a_1152_n19#" 824 22384 1152 -19 ndiff 48 28 40 26 132 128 0 0 0 0 0 0 284 150 0 0 0 0
+node "a_1130_n19#" 988 27144 1130 -19 ndiff 20 18 40 26 152 152 0 0 0 0 0 0 278 154 266 140 0 0
+node "a_1106_27#" 815 22384 1106 27 pdiff 40 26 48 28 132 128 0 0 0 0 0 0 284 150 0 0 0 0
+node "a_1079_n19#" 989 26435 1079 -19 ndiff 20 18 40 26 152 152 0 0 0 0 0 0 290 160 414 214 0 0
+node "a_1055_27#" 815 22384 1055 27 pdiff 40 26 48 28 132 128 0 0 0 0 0 0 284 150 0 0 0 0
+node "a_973_n19#" 988 23836 973 -19 ndiff 20 18 40 26 152 152 0 0 0 0 0 0 274 152 390 202 0 0
+node "a_991_n19#" 988 23779 991 -19 ndiff 20 18 40 26 152 152 0 0 0 0 0 0 274 152 274 144 0 0
+node "a_892_n19#" 988 23836 892 -19 ndiff 20 18 40 26 152 152 0 0 0 0 0 0 274 152 390 202 0 0
+node "a_910_n19#" 988 23779 910 -19 ndiff 20 18 40 26 152 152 0 0 0 0 0 0 274 152 274 144 0 0
+node "a_833_n19#" 824 22384 833 -19 ndiff 48 28 40 26 132 128 0 0 0 0 0 0 284 150 0 0 0 0
+node "a_811_n19#" 988 27144 811 -19 ndiff 20 18 40 26 152 152 0 0 0 0 0 0 278 154 266 140 0 0
+node "a_787_27#" 815 22384 787 27 pdiff 40 26 48 28 132 128 0 0 0 0 0 0 284 150 0 0 0 0
+node "A4" 2771 87636 889 47 pc 0 0 0 0 472 472 0 0 0 0 0 0 964 490 0 0 0 0
+node "a_760_n19#" 989 26435 760 -19 ndiff 20 18 40 26 152 152 0 0 0 0 0 0 290 160 414 214 0 0
+node "B4" 3022 70860 904 8 pc 0 0 0 0 538 526 0 0 0 0 0 0 242 152 642 328 0 0
+node "a_936_n19#" 3588 99344 936 -19 ndiff 48 28 96 44 608 592 0 0 0 0 0 0 1000 524 0 0 0 0
+node "a_736_27#" 815 22384 736 27 pdiff 40 26 48 28 132 128 0 0 0 0 0 0 284 150 0 0 0 0
+node "a_654_n19#" 988 23836 654 -19 ndiff 20 18 40 26 152 152 0 0 0 0 0 0 274 152 390 202 0 0
+node "a_672_n19#" 988 23779 672 -19 ndiff 20 18 40 26 152 152 0 0 0 0 0 0 274 152 274 144 0 0
+node "a_573_n19#" 988 23836 573 -19 ndiff 20 18 40 26 152 152 0 0 0 0 0 0 274 152 390 202 0 0
+node "a_591_n19#" 988 23779 591 -19 ndiff 20 18 40 26 152 152 0 0 0 0 0 0 274 152 274 144 0 0
+node "a_524_n19#" 824 22384 524 -19 ndiff 48 28 40 26 132 128 0 0 0 0 0 0 284 150 0 0 0 0
+node "a_502_n19#" 988 27144 502 -19 ndiff 20 18 40 26 152 152 0 0 0 0 0 0 278 154 266 140 0 0
+node "a_478_27#" 815 22384 478 27 pdiff 40 26 48 28 132 128 0 0 0 0 0 0 284 150 0 0 0 0
+node "A3" 2771 87636 570 47 pc 0 0 0 0 472 472 0 0 0 0 0 0 964 490 0 0 0 0
+node "a_451_n19#" 989 26435 451 -19 ndiff 20 18 40 26 152 152 0 0 0 0 0 0 290 160 414 214 0 0
+node "B3" 3022 70860 585 8 pc 0 0 0 0 538 526 0 0 0 0 0 0 242 152 642 328 0 0
+node "a_617_n19#" 3588 99344 617 -19 ndiff 48 28 96 44 608 592 0 0 0 0 0 0 1000 524 0 0 0 0
+node "a_427_27#" 815 22384 427 27 pdiff 40 26 48 28 132 128 0 0 0 0 0 0 284 150 0 0 0 0
+node "a_345_n19#" 988 23836 345 -19 ndiff 20 18 40 26 152 152 0 0 0 0 0 0 274 152 390 202 0 0
+node "a_363_n19#" 988 23779 363 -19 ndiff 20 18 40 26 152 152 0 0 0 0 0 0 274 152 274 144 0 0
+node "a_264_n19#" 988 23836 264 -19 ndiff 20 18 40 26 152 152 0 0 0 0 0 0 274 152 390 202 0 0
+node "a_282_n19#" 988 23779 282 -19 ndiff 20 18 40 26 152 152 0 0 0 0 0 0 274 152 274 144 0 0
+node "a_216_n19#" 824 22384 216 -19 ndiff 48 28 40 26 132 128 0 0 0 0 0 0 284 150 0 0 0 0
+node "a_194_n19#" 988 27144 194 -19 ndiff 20 18 40 26 152 152 0 0 0 0 0 0 278 154 266 140 0 0
+node "a_170_27#" 815 22384 170 27 pdiff 40 26 48 28 132 128 0 0 0 0 0 0 284 150 0 0 0 0
+node "A2" 2771 87636 261 47 pc 0 0 0 0 472 472 0 0 0 0 0 0 964 490 0 0 0 0
+node "a_143_n19#" 989 26435 143 -19 ndiff 20 18 40 26 152 152 0 0 0 0 0 0 290 160 414 214 0 0
+node "B2" 3022 70860 276 8 pc 0 0 0 0 538 526 0 0 0 0 0 0 242 152 642 328 0 0
+node "a_308_n19#" 3588 99344 308 -19 ndiff 48 28 96 44 608 592 0 0 0 0 0 0 1000 524 0 0 0 0
+node "a_119_27#" 815 22384 119 27 pdiff 40 26 48 28 132 128 0 0 0 0 0 0 284 150 0 0 0 0
+node "a_37_n19#" 988 23836 37 -19 ndiff 20 18 40 26 152 152 0 0 0 0 0 0 274 152 390 202 0 0
+node "a_55_n19#" 988 23779 55 -19 ndiff 20 18 40 26 152 152 0 0 0 0 0 0 274 152 274 144 0 0
+node "a_n44_n19#" 988 23836 -44 -19 ndiff 20 18 40 26 152 152 0 0 0 0 0 0 274 152 390 202 0 0
+node "a_n26_n19#" 988 23779 -26 -19 ndiff 20 18 40 26 152 152 0 0 0 0 0 0 274 152 274 144 0 0
+node "vdd" 18864 352782 -51 27 pdc 576 576 2848 1704 0 0 0 0 0 0 0 0 10626 3994 0 0 0 0
+node "A1" 2771 87636 -47 47 pc 0 0 0 0 472 472 0 0 0 0 0 0 964 490 0 0 0 0
+node "B1" 3022 70860 -32 8 pc 0 0 0 0 538 526 0 0 0 0 0 0 242 152 642 328 0 0
+node "a_0_n19#" 3588 99344 0 -19 ndiff 48 28 96 44 608 592 0 0 0 0 0 0 1000 524 0 0 0 0
+node "cin4" 3856 129826 857 -19 ndiff 20 18 40 26 640 636 0 0 0 0 0 0 1378 712 334 174 0 0
+equiv "cin4" "cout3"
+node "cin3" 3856 127758 548 -19 ndiff 20 18 40 26 640 636 0 0 0 0 0 0 1334 690 334 174 0 0
+equiv "cin3" "cout2"
+node "cin2" 3856 127834 240 -19 ndiff 20 18 40 26 640 636 0 0 0 0 0 0 1334 690 338 176 0 0
+equiv "cin2" "cout1"
+node "cin" 3724 91892 52 -35 pc 0 0 0 0 640 636 0 0 0 0 0 0 628 330 0 0 0 0
+cap "a_n44_n19#" "gnd" 9900
+cap "vdd" "A4" 1080
+cap "cin" "vdd" 720
+cap "B1" "A1" 960
+cap "vdd" "a_1002_19#" 1128
+cap "a_308_n19#" "B2" 152
+cap "cin" "gnd" 720
+cap "vdd" "a_282_n19#" 5220
+cap "cin2" "a_478_27#" 240
+cap "vdd" "a_374_19#" 1128
+cap "B4" "A4" 960
+cap "a_0_n19#" "B1" 152
+cap "a_617_n19#" "a_573_n19#" 240
+cap "a_1130_n19#" "gnd" 1440
+cap "B2" "a_427_27#" 240
+cap "a_37_n19#" "gnd" 9900
+cap "a_811_n19#" "gnd" 1440
+cap "vdd" "a_363_n19#" 5220
+cap "a_308_n19#" "A2" 240
+cap "cin3" "a_617_n19#" 480
+cap "a_573_n19#" "gnd" 9900
+cap "vdd" "a_308_n19#" 1080
+cap "a_617_n19#" "B3" 152
+cap "vdd" "a_910_n19#" 5220
+cap "a_973_n19#" "S4" 240
+cap "a_936_n19#" "a_892_n19#" 240
+cap "cin2" "a_308_n19#" 480
+cap "B3" "a_736_27#" 240
+cap "S4" "gnd" 2160
+cap "cin3" "vdd" 1800
+cap "a_654_n19#" "gnd" 9900
+cap "cin3" "gnd" 720
+cap "vdd" "a_143_n19#" 11520
+cap "a_37_n19#" "S1" 240
+cap "cin4" "a_936_n19#" 480
+cap "vdd" "a_991_n19#" 5220
+cap "a_617_n19#" "A3" 240
+cap "B1" "a_119_27#" 240
+cap "a_308_n19#" "a_282_n19#" 240
+cap "vdd" "B3" 720
+cap "B3" "gnd" 720
+cap "A1" "vdd" 1080
+cap "vdd" "a_n15_19#" 1128
+cap "vdd" "a_936_n19#" 1080
+cap "a_0_n19#" "vdd" 1080
+cap "vdd" "a_921_19#" 1128
+cap "a_345_n19#" "S2" 240
+cap "a_936_n19#" "B4" 152
+cap "S4" "a_1002_19#" 1128
+cap "vdd" "a_293_19#" 1128
+cap "vdd" "A3" 1080
+cap "B4" "a_1055_27#" 240
+cap "cin4" "a_1106_27#" 240
+cap "vdd" "a_n26_n19#" 5220
+cap "a_654_n19#" "S3" 240
+cap "a_0_n19#" "a_n44_n19#" 240
+cap "vdd" "a_760_n19#" 11520
+cap "cin" "A1" 240
+cap "a_936_n19#" "A4" 240
+cap "a_0_n19#" "cin" 480
+cap "a_617_n19#" "a_591_n19#" 240
+cap "cin" "a_170_27#" 240
+cap "a_194_n19#" "a_216_n19#" 240
+cap "a_502_n19#" "gnd" 1440
+cap "vdd" "a_683_19#" 1128
+cap "vdd" "a_55_n19#" 5220
+cap "vdd" "a_66_19#" 1128
+cap "B1" "vdd" 720
+cap "B1" "gnd" 720
+cap "a_264_n19#" "gnd" 9900
+cap "vdd" "a_591_n19#" 5220
+cap "a_991_n19#" "S4" 240
+cap "B2" "A2" 960
+cap "a_345_n19#" "gnd" 9900
+cap "a_936_n19#" "a_910_n19#" 240
+cap "a_308_n19#" "a_293_19#" 1128
+cap "cin" "B1" 152
+cap "cin3" "B3" 152
+cap "a_502_n19#" "a_524_n19#" 240
+cap "vdd" "a_672_n19#" 5220
+cap "a_683_19#" "S3" 1128
+cap "vdd" "B2" 720
+cap "B2" "gnd" 720
+cap "a_374_19#" "S2" 1128
+cap "a_55_n19#" "S1" 240
+cap "a_66_19#" "S1" 1128
+cap "a_892_n19#" "gnd" 9900
+cap "a_1130_n19#" "a_1152_n19#" 240
+cap "a_617_n19#" "a_602_19#" 1128
+cap "vdd" "a_617_n19#" 1080
+cap "cin2" "B2" 152
+cap "cin3" "A3" 240
+cap "cin4" "vdd" 1800
+cap "a_0_n19#" "A1" 240
+cap "a_363_n19#" "S2" 240
+cap "vdd" "A2" 1080
+cap "cin4" "gnd" 720
+cap "a_0_n19#" "a_n15_19#" 1128
+cap "cin4" "B4" 152
+cap "a_936_n19#" "a_921_19#" 1128
+cap "B3" "A3" 960
+cap "a_973_n19#" "gnd" 9900
+cap "a_308_n19#" "a_264_n19#" 240
+cap "vdd" "a_451_n19#" 11520
+cap "a_811_n19#" "a_833_n19#" 240
+cap "vdd" "a_602_19#" 1128
+cap "cin2" "A2" 240
+cap "a_672_n19#" "S3" 240
+cap "vdd" "B4" 720
+cap "a_0_n19#" "a_n26_n19#" 240
+cap "B4" "gnd" 720
+cap "a_194_n19#" "gnd" 1440
+cap "cin3" "a_787_27#" 240
+cap "cin4" "A4" 240
+cap "cin2" "vdd" 1800
+cap "vdd" "a_1079_n19#" 11520
+cap "cin2" "gnd" 720
+device mosfet nfet 1273 -19 1274 -18 2 4 "Gnd!" "a_1250_n19#" 4 0 "gnd" 4 0 "sum" 4 0
+device mosfet nfet 1248 -19 1249 -18 2 4 "Gnd!" "S4" 4 0 "gnd" 4 0 "a_1250_n19#" 4 0
+device mosfet nfet 1222 -19 1223 -18 2 4 "Gnd!" "a_1200_n19#" 4 0 "gnd" 4 0 "cout" 4 0
+device mosfet nfet 1198 -19 1199 -18 2 4 "Gnd!" "cout4" 4 0 "gnd" 4 0 "a_1200_n19#" 4 0
+device mosfet nfet 1174 -19 1175 -18 2 4 "Gnd!" "a_1152_n19#" 4 0 "gnd" 4 0 "cout4" 4 0
+device mosfet nfet 1158 -19 1159 -18 2 8 "Gnd!" "a_1130_n19#" 4 0 "a_1152_n19#" 8 0 "gnd" 8 0
+device mosfet nfet 1150 -19 1151 -18 2 8 "Gnd!" "a_1079_n19#" 4 0 "gnd" 8 0 "a_1152_n19#" 8 0
+device mosfet nfet 1128 -19 1129 -18 2 4 "Gnd!" "a_1106_27#" 4 0 "gnd" 4 0 "a_1130_n19#" 4 0
+device mosfet nfet 1112 -19 1113 -18 2 8 "Gnd!" "cin4" 4 0 "a_1106_n19#" 8 0 "a_1106_27#" 8 0
+device mosfet nfet 1104 -19 1105 -18 2 8 "Gnd!" "a_936_n19#" 4 0 "gnd" 8 0 "a_1106_n19#" 8 0
+device mosfet nfet 1077 -19 1078 -18 2 4 "Gnd!" "a_1055_27#" 4 0 "gnd" 4 0 "a_1079_n19#" 4 0
+device mosfet nfet 1061 -19 1062 -18 2 8 "Gnd!" "B4" 4 0 "a_1055_n19#" 8 0 "a_1055_27#" 8 0
+device mosfet nfet 1053 -19 1054 -18 2 8 "Gnd!" "A4" 4 0 "gnd" 8 0 "a_1055_n19#" 8 0
+device mosfet nfet 1031 -19 1032 -18 2 8 "Gnd!" "a_973_n19#" 4 0 "a_1025_n19#" 8 0 "gnd" 8 0
+device mosfet nfet 1023 -19 1024 -18 2 8 "Gnd!" "a_991_n19#" 4 0 "S4" 8 0 "a_1025_n19#" 8 0
+device mosfet nfet 1015 -19 1016 -18 2 8 "Gnd!" "cin4" 4 0 "a_1009_n19#" 8 0 "S4" 8 0
+device mosfet nfet 1007 -19 1008 -18 2 8 "Gnd!" "a_936_n19#" 4 0 "gnd" 8 0 "a_1009_n19#" 8 0
+device mosfet nfet 989 -19 990 -18 2 4 "Gnd!" "cin4" 4 0 "gnd" 4 0 "a_991_n19#" 4 0
+device mosfet nfet 971 -19 972 -18 2 4 "Gnd!" "a_936_n19#" 4 0 "gnd" 4 0 "a_973_n19#" 4 0
+device mosfet pfet 1273 27 1274 28 2 8 "Vdd!" "a_1250_n19#" 4 0 "vdd" 8 0 "sum" 8 0
+device mosfet pfet 1248 27 1249 28 2 8 "Vdd!" "S4" 4 0 "vdd" 8 0 "a_1250_n19#" 8 0
+device mosfet pfet 1222 27 1223 28 2 8 "Vdd!" "a_1200_n19#" 4 0 "vdd" 8 0 "cout" 8 0
+device mosfet pfet 1198 27 1199 28 2 8 "Vdd!" "cout4" 4 0 "vdd" 8 0 "a_1200_n19#" 8 0
+device mosfet pfet 1174 27 1175 28 2 8 "Vdd!" "a_1152_n19#" 4 0 "vdd" 8 0 "cout4" 8 0
+device mosfet pfet 1158 27 1159 28 2 8 "Vdd!" "a_1130_n19#" 4 0 "a_1152_27#" 8 0 "a_1152_n19#" 8 0
+device mosfet pfet 1150 27 1151 28 2 8 "Vdd!" "a_1079_n19#" 4 0 "vdd" 8 0 "a_1152_27#" 8 0
+device mosfet pfet 1128 27 1129 28 2 8 "Vdd!" "a_1106_27#" 4 0 "vdd" 8 0 "a_1130_n19#" 8 0
+device mosfet pfet 1112 27 1113 28 2 8 "Vdd!" "cin4" 4 0 "a_1106_27#" 8 0 "vdd" 8 0
+device mosfet pfet 1104 27 1105 28 2 8 "Vdd!" "a_936_n19#" 4 0 "vdd" 8 0 "a_1106_27#" 8 0
+device mosfet pfet 1077 27 1078 28 2 8 "Vdd!" "a_1055_27#" 4 0 "vdd" 8 0 "a_1079_n19#" 8 0
+device mosfet pfet 1061 27 1062 28 2 8 "Vdd!" "B4" 4 0 "a_1055_27#" 8 0 "vdd" 8 0
+device mosfet pfet 1053 27 1054 28 2 8 "Vdd!" "A4" 4 0 "vdd" 8 0 "a_1055_27#" 8 0
+device mosfet pfet 1031 19 1032 20 2 16 "Vdd!" "a_973_n19#" 4 0 "S4" 16 0 "a_1002_19#" 16 0
+device mosfet pfet 1023 19 1024 20 2 16 "Vdd!" "a_991_n19#" 4 0 "a_1002_19#" 16 0 "S4" 16 0
+device mosfet pfet 1015 19 1016 20 2 16 "Vdd!" "cin4" 4 0 "vdd" 16 0 "a_1002_19#" 16 0
+device mosfet pfet 1007 19 1008 20 2 16 "Vdd!" "a_936_n19#" 4 0 "a_1002_19#" 16 0 "vdd" 16 0
+device mosfet nfet 950 -19 951 -18 2 8 "Gnd!" "a_892_n19#" 4 0 "a_944_n19#" 8 0 "gnd" 8 0
+device mosfet nfet 942 -19 943 -18 2 8 "Gnd!" "a_910_n19#" 4 0 "a_936_n19#" 8 0 "a_944_n19#" 8 0
+device mosfet nfet 934 -19 935 -18 2 8 "Gnd!" "B4" 4 0 "a_928_n19#" 8 0 "a_936_n19#" 8 0
+device mosfet nfet 926 -19 927 -18 2 8 "Gnd!" "A4" 4 0 "gnd" 8 0 "a_928_n19#" 8 0
+device mosfet nfet 908 -19 909 -18 2 4 "Gnd!" "B4" 4 0 "gnd" 4 0 "a_910_n19#" 4 0
+device mosfet nfet 890 -19 891 -18 2 4 "Gnd!" "A4" 4 0 "gnd" 4 0 "a_892_n19#" 4 0
+device mosfet nfet 855 -19 856 -18 2 4 "Gnd!" "a_833_n19#" 4 0 "gnd" 4 0 "cin4" 4 0
+device mosfet pfet 989 27 990 28 2 8 "Vdd!" "cin4" 4 0 "vdd" 8 0 "a_991_n19#" 8 0
+device mosfet pfet 971 27 972 28 2 8 "Vdd!" "a_936_n19#" 4 0 "vdd" 8 0 "a_973_n19#" 8 0
+device mosfet pfet 950 19 951 20 2 16 "Vdd!" "a_892_n19#" 4 0 "a_936_n19#" 16 0 "a_921_19#" 16 0
+device mosfet pfet 942 19 943 20 2 16 "Vdd!" "a_910_n19#" 4 0 "a_921_19#" 16 0 "a_936_n19#" 16 0
+device mosfet pfet 934 19 935 20 2 16 "Vdd!" "B4" 4 0 "vdd" 16 0 "a_921_19#" 16 0
+device mosfet pfet 926 19 927 20 2 16 "Vdd!" "A4" 4 0 "a_921_19#" 16 0 "vdd" 16 0
+device mosfet nfet 839 -19 840 -18 2 8 "Gnd!" "a_811_n19#" 4 0 "a_833_n19#" 8 0 "gnd" 8 0
+device mosfet nfet 831 -19 832 -18 2 8 "Gnd!" "a_760_n19#" 4 0 "gnd" 8 0 "a_833_n19#" 8 0
+device mosfet nfet 809 -19 810 -18 2 4 "Gnd!" "a_787_27#" 4 0 "gnd" 4 0 "a_811_n19#" 4 0
+device mosfet nfet 793 -19 794 -18 2 8 "Gnd!" "cin3" 4 0 "a_787_n19#" 8 0 "a_787_27#" 8 0
+device mosfet nfet 785 -19 786 -18 2 8 "Gnd!" "a_617_n19#" 4 0 "gnd" 8 0 "a_787_n19#" 8 0
+device mosfet nfet 758 -19 759 -18 2 4 "Gnd!" "a_736_27#" 4 0 "gnd" 4 0 "a_760_n19#" 4 0
+device mosfet nfet 742 -19 743 -18 2 8 "Gnd!" "B3" 4 0 "a_736_n19#" 8 0 "a_736_27#" 8 0
+device mosfet nfet 734 -19 735 -18 2 8 "Gnd!" "A3" 4 0 "gnd" 8 0 "a_736_n19#" 8 0
+device mosfet nfet 712 -19 713 -18 2 8 "Gnd!" "a_654_n19#" 4 0 "a_706_n19#" 8 0 "gnd" 8 0
+device mosfet nfet 704 -19 705 -18 2 8 "Gnd!" "a_672_n19#" 4 0 "S3" 8 0 "a_706_n19#" 8 0
+device mosfet nfet 696 -19 697 -18 2 8 "Gnd!" "cin3" 4 0 "a_690_n19#" 8 0 "S3" 8 0
+device mosfet nfet 688 -19 689 -18 2 8 "Gnd!" "a_617_n19#" 4 0 "gnd" 8 0 "a_690_n19#" 8 0
+device mosfet nfet 670 -19 671 -18 2 4 "Gnd!" "cin3" 4 0 "gnd" 4 0 "a_672_n19#" 4 0
+device mosfet nfet 652 -19 653 -18 2 4 "Gnd!" "a_617_n19#" 4 0 "gnd" 4 0 "a_654_n19#" 4 0
+device mosfet pfet 908 27 909 28 2 8 "Vdd!" "B4" 4 0 "vdd" 8 0 "a_910_n19#" 8 0
+device mosfet pfet 890 27 891 28 2 8 "Vdd!" "A4" 4 0 "vdd" 8 0 "a_892_n19#" 8 0
+device mosfet pfet 855 27 856 28 2 8 "Vdd!" "a_833_n19#" 4 0 "vdd" 8 0 "cin4" 8 0
+device mosfet pfet 839 27 840 28 2 8 "Vdd!" "a_811_n19#" 4 0 "a_833_27#" 8 0 "a_833_n19#" 8 0
+device mosfet pfet 831 27 832 28 2 8 "Vdd!" "a_760_n19#" 4 0 "vdd" 8 0 "a_833_27#" 8 0
+device mosfet pfet 809 27 810 28 2 8 "Vdd!" "a_787_27#" 4 0 "vdd" 8 0 "a_811_n19#" 8 0
+device mosfet pfet 793 27 794 28 2 8 "Vdd!" "cin3" 4 0 "a_787_27#" 8 0 "vdd" 8 0
+device mosfet pfet 785 27 786 28 2 8 "Vdd!" "a_617_n19#" 4 0 "vdd" 8 0 "a_787_27#" 8 0
+device mosfet pfet 758 27 759 28 2 8 "Vdd!" "a_736_27#" 4 0 "vdd" 8 0 "a_760_n19#" 8 0
+device mosfet pfet 742 27 743 28 2 8 "Vdd!" "B3" 4 0 "a_736_27#" 8 0 "vdd" 8 0
+device mosfet pfet 734 27 735 28 2 8 "Vdd!" "A3" 4 0 "vdd" 8 0 "a_736_27#" 8 0
+device mosfet pfet 712 19 713 20 2 16 "Vdd!" "a_654_n19#" 4 0 "S3" 16 0 "a_683_19#" 16 0
+device mosfet pfet 704 19 705 20 2 16 "Vdd!" "a_672_n19#" 4 0 "a_683_19#" 16 0 "S3" 16 0
+device mosfet pfet 696 19 697 20 2 16 "Vdd!" "cin3" 4 0 "vdd" 16 0 "a_683_19#" 16 0
+device mosfet pfet 688 19 689 20 2 16 "Vdd!" "a_617_n19#" 4 0 "a_683_19#" 16 0 "vdd" 16 0
+device mosfet nfet 631 -19 632 -18 2 8 "Gnd!" "a_573_n19#" 4 0 "a_625_n19#" 8 0 "gnd" 8 0
+device mosfet nfet 623 -19 624 -18 2 8 "Gnd!" "a_591_n19#" 4 0 "a_617_n19#" 8 0 "a_625_n19#" 8 0
+device mosfet nfet 615 -19 616 -18 2 8 "Gnd!" "B3" 4 0 "a_609_n19#" 8 0 "a_617_n19#" 8 0
+device mosfet nfet 607 -19 608 -18 2 8 "Gnd!" "A3" 4 0 "gnd" 8 0 "a_609_n19#" 8 0
+device mosfet nfet 589 -19 590 -18 2 4 "Gnd!" "B3" 4 0 "gnd" 4 0 "a_591_n19#" 4 0
+device mosfet nfet 571 -19 572 -18 2 4 "Gnd!" "A3" 4 0 "gnd" 4 0 "a_573_n19#" 4 0
+device mosfet nfet 546 -19 547 -18 2 4 "Gnd!" "a_524_n19#" 4 0 "gnd" 4 0 "cin3" 4 0
+device mosfet pfet 670 27 671 28 2 8 "Vdd!" "cin3" 4 0 "vdd" 8 0 "a_672_n19#" 8 0
+device mosfet pfet 652 27 653 28 2 8 "Vdd!" "a_617_n19#" 4 0 "vdd" 8 0 "a_654_n19#" 8 0
+device mosfet pfet 631 19 632 20 2 16 "Vdd!" "a_573_n19#" 4 0 "a_617_n19#" 16 0 "a_602_19#" 16 0
+device mosfet pfet 623 19 624 20 2 16 "Vdd!" "a_591_n19#" 4 0 "a_602_19#" 16 0 "a_617_n19#" 16 0
+device mosfet pfet 615 19 616 20 2 16 "Vdd!" "B3" 4 0 "vdd" 16 0 "a_602_19#" 16 0
+device mosfet pfet 607 19 608 20 2 16 "Vdd!" "A3" 4 0 "a_602_19#" 16 0 "vdd" 16 0
+device mosfet nfet 530 -19 531 -18 2 8 "Gnd!" "a_502_n19#" 4 0 "a_524_n19#" 8 0 "gnd" 8 0
+device mosfet nfet 522 -19 523 -18 2 8 "Gnd!" "a_451_n19#" 4 0 "gnd" 8 0 "a_524_n19#" 8 0
+device mosfet nfet 500 -19 501 -18 2 4 "Gnd!" "a_478_27#" 4 0 "gnd" 4 0 "a_502_n19#" 4 0
+device mosfet nfet 484 -19 485 -18 2 8 "Gnd!" "cin2" 4 0 "a_478_n19#" 8 0 "a_478_27#" 8 0
+device mosfet nfet 476 -19 477 -18 2 8 "Gnd!" "a_308_n19#" 4 0 "gnd" 8 0 "a_478_n19#" 8 0
+device mosfet nfet 449 -19 450 -18 2 4 "Gnd!" "a_427_27#" 4 0 "gnd" 4 0 "a_451_n19#" 4 0
+device mosfet nfet 433 -19 434 -18 2 8 "Gnd!" "B2" 4 0 "a_427_n19#" 8 0 "a_427_27#" 8 0
+device mosfet nfet 425 -19 426 -18 2 8 "Gnd!" "A2" 4 0 "gnd" 8 0 "a_427_n19#" 8 0
+device mosfet nfet 403 -19 404 -18 2 8 "Gnd!" "a_345_n19#" 4 0 "a_397_n19#" 8 0 "gnd" 8 0
+device mosfet nfet 395 -19 396 -18 2 8 "Gnd!" "a_363_n19#" 4 0 "S2" 8 0 "a_397_n19#" 8 0
+device mosfet nfet 387 -19 388 -18 2 8 "Gnd!" "cin2" 4 0 "a_381_n19#" 8 0 "S2" 8 0
+device mosfet nfet 379 -19 380 -18 2 8 "Gnd!" "a_308_n19#" 4 0 "gnd" 8 0 "a_381_n19#" 8 0
+device mosfet nfet 361 -19 362 -18 2 4 "Gnd!" "cin2" 4 0 "gnd" 4 0 "a_363_n19#" 4 0
+device mosfet nfet 343 -19 344 -18 2 4 "Gnd!" "a_308_n19#" 4 0 "gnd" 4 0 "a_345_n19#" 4 0
+device mosfet pfet 589 27 590 28 2 8 "Vdd!" "B3" 4 0 "vdd" 8 0 "a_591_n19#" 8 0
+device mosfet pfet 571 27 572 28 2 8 "Vdd!" "A3" 4 0 "vdd" 8 0 "a_573_n19#" 8 0
+device mosfet pfet 546 27 547 28 2 8 "Vdd!" "a_524_n19#" 4 0 "vdd" 8 0 "cin3" 8 0
+device mosfet pfet 530 27 531 28 2 8 "Vdd!" "a_502_n19#" 4 0 "a_524_27#" 8 0 "a_524_n19#" 8 0
+device mosfet pfet 522 27 523 28 2 8 "Vdd!" "a_451_n19#" 4 0 "vdd" 8 0 "a_524_27#" 8 0
+device mosfet pfet 500 27 501 28 2 8 "Vdd!" "a_478_27#" 4 0 "vdd" 8 0 "a_502_n19#" 8 0
+device mosfet pfet 484 27 485 28 2 8 "Vdd!" "cin2" 4 0 "a_478_27#" 8 0 "vdd" 8 0
+device mosfet pfet 476 27 477 28 2 8 "Vdd!" "a_308_n19#" 4 0 "vdd" 8 0 "a_478_27#" 8 0
+device mosfet pfet 449 27 450 28 2 8 "Vdd!" "a_427_27#" 4 0 "vdd" 8 0 "a_451_n19#" 8 0
+device mosfet pfet 433 27 434 28 2 8 "Vdd!" "B2" 4 0 "a_427_27#" 8 0 "vdd" 8 0
+device mosfet pfet 425 27 426 28 2 8 "Vdd!" "A2" 4 0 "vdd" 8 0 "a_427_27#" 8 0
+device mosfet pfet 403 19 404 20 2 16 "Vdd!" "a_345_n19#" 4 0 "S2" 16 0 "a_374_19#" 16 0
+device mosfet pfet 395 19 396 20 2 16 "Vdd!" "a_363_n19#" 4 0 "a_374_19#" 16 0 "S2" 16 0
+device mosfet pfet 387 19 388 20 2 16 "Vdd!" "cin2" 4 0 "vdd" 16 0 "a_374_19#" 16 0
+device mosfet pfet 379 19 380 20 2 16 "Vdd!" "a_308_n19#" 4 0 "a_374_19#" 16 0 "vdd" 16 0
+device mosfet nfet 322 -19 323 -18 2 8 "Gnd!" "a_264_n19#" 4 0 "a_316_n19#" 8 0 "gnd" 8 0
+device mosfet nfet 314 -19 315 -18 2 8 "Gnd!" "a_282_n19#" 4 0 "a_308_n19#" 8 0 "a_316_n19#" 8 0
+device mosfet nfet 306 -19 307 -18 2 8 "Gnd!" "B2" 4 0 "a_300_n19#" 8 0 "a_308_n19#" 8 0
+device mosfet nfet 298 -19 299 -18 2 8 "Gnd!" "A2" 4 0 "gnd" 8 0 "a_300_n19#" 8 0
+device mosfet nfet 280 -19 281 -18 2 4 "Gnd!" "B2" 4 0 "gnd" 4 0 "a_282_n19#" 4 0
+device mosfet nfet 262 -19 263 -18 2 4 "Gnd!" "A2" 4 0 "gnd" 4 0 "a_264_n19#" 4 0
+device mosfet nfet 238 -19 239 -18 2 4 "Gnd!" "a_216_n19#" 4 0 "gnd" 4 0 "cin2" 4 0
+device mosfet pfet 361 27 362 28 2 8 "Vdd!" "cin2" 4 0 "vdd" 8 0 "a_363_n19#" 8 0
+device mosfet pfet 343 27 344 28 2 8 "Vdd!" "a_308_n19#" 4 0 "vdd" 8 0 "a_345_n19#" 8 0
+device mosfet pfet 322 19 323 20 2 16 "Vdd!" "a_264_n19#" 4 0 "a_308_n19#" 16 0 "a_293_19#" 16 0
+device mosfet pfet 314 19 315 20 2 16 "Vdd!" "a_282_n19#" 4 0 "a_293_19#" 16 0 "a_308_n19#" 16 0
+device mosfet pfet 306 19 307 20 2 16 "Vdd!" "B2" 4 0 "vdd" 16 0 "a_293_19#" 16 0
+device mosfet pfet 298 19 299 20 2 16 "Vdd!" "A2" 4 0 "a_293_19#" 16 0 "vdd" 16 0
+device mosfet nfet 222 -19 223 -18 2 8 "Gnd!" "a_194_n19#" 4 0 "a_216_n19#" 8 0 "gnd" 8 0
+device mosfet nfet 214 -19 215 -18 2 8 "Gnd!" "a_143_n19#" 4 0 "gnd" 8 0 "a_216_n19#" 8 0
+device mosfet nfet 192 -19 193 -18 2 4 "Gnd!" "a_170_27#" 4 0 "gnd" 4 0 "a_194_n19#" 4 0
+device mosfet nfet 176 -19 177 -18 2 8 "Gnd!" "cin" 4 0 "a_170_n19#" 8 0 "a_170_27#" 8 0
+device mosfet nfet 168 -19 169 -18 2 8 "Gnd!" "a_0_n19#" 4 0 "gnd" 8 0 "a_170_n19#" 8 0
+device mosfet nfet 141 -19 142 -18 2 4 "Gnd!" "a_119_27#" 4 0 "gnd" 4 0 "a_143_n19#" 4 0
+device mosfet nfet 125 -19 126 -18 2 8 "Gnd!" "B1" 4 0 "a_119_n19#" 8 0 "a_119_27#" 8 0
+device mosfet nfet 117 -19 118 -18 2 8 "Gnd!" "A1" 4 0 "gnd" 8 0 "a_119_n19#" 8 0
+device mosfet nfet 95 -19 96 -18 2 8 "Gnd!" "a_37_n19#" 4 0 "a_89_n19#" 8 0 "gnd" 8 0
+device mosfet nfet 87 -19 88 -18 2 8 "Gnd!" "a_55_n19#" 4 0 "S1" 8 0 "a_89_n19#" 8 0
+device mosfet nfet 79 -19 80 -18 2 8 "Gnd!" "cin" 4 0 "a_73_n19#" 8 0 "S1" 8 0
+device mosfet nfet 71 -19 72 -18 2 8 "Gnd!" "a_0_n19#" 4 0 "gnd" 8 0 "a_73_n19#" 8 0
+device mosfet nfet 53 -19 54 -18 2 4 "Gnd!" "cin" 4 0 "gnd" 4 0 "a_55_n19#" 4 0
+device mosfet nfet 35 -19 36 -18 2 4 "Gnd!" "a_0_n19#" 4 0 "gnd" 4 0 "a_37_n19#" 4 0
+device mosfet pfet 280 27 281 28 2 8 "Vdd!" "B2" 4 0 "vdd" 8 0 "a_282_n19#" 8 0
+device mosfet pfet 262 27 263 28 2 8 "Vdd!" "A2" 4 0 "vdd" 8 0 "a_264_n19#" 8 0
+device mosfet pfet 238 27 239 28 2 8 "Vdd!" "a_216_n19#" 4 0 "vdd" 8 0 "cin2" 8 0
+device mosfet pfet 222 27 223 28 2 8 "Vdd!" "a_194_n19#" 4 0 "a_216_27#" 8 0 "a_216_n19#" 8 0
+device mosfet pfet 214 27 215 28 2 8 "Vdd!" "a_143_n19#" 4 0 "vdd" 8 0 "a_216_27#" 8 0
+device mosfet pfet 192 27 193 28 2 8 "Vdd!" "a_170_27#" 4 0 "vdd" 8 0 "a_194_n19#" 8 0
+device mosfet pfet 176 27 177 28 2 8 "Vdd!" "cin" 4 0 "a_170_27#" 8 0 "vdd" 8 0
+device mosfet pfet 168 27 169 28 2 8 "Vdd!" "a_0_n19#" 4 0 "vdd" 8 0 "a_170_27#" 8 0
+device mosfet pfet 141 27 142 28 2 8 "Vdd!" "a_119_27#" 4 0 "vdd" 8 0 "a_143_n19#" 8 0
+device mosfet pfet 125 27 126 28 2 8 "Vdd!" "B1" 4 0 "a_119_27#" 8 0 "vdd" 8 0
+device mosfet pfet 117 27 118 28 2 8 "Vdd!" "A1" 4 0 "vdd" 8 0 "a_119_27#" 8 0
+device mosfet pfet 95 19 96 20 2 16 "Vdd!" "a_37_n19#" 4 0 "S1" 16 0 "a_66_19#" 16 0
+device mosfet pfet 87 19 88 20 2 16 "Vdd!" "a_55_n19#" 4 0 "a_66_19#" 16 0 "S1" 16 0
+device mosfet pfet 79 19 80 20 2 16 "Vdd!" "cin" 4 0 "vdd" 16 0 "a_66_19#" 16 0
+device mosfet pfet 71 19 72 20 2 16 "Vdd!" "a_0_n19#" 4 0 "a_66_19#" 16 0 "vdd" 16 0
+device mosfet nfet 14 -19 15 -18 2 8 "Gnd!" "a_n44_n19#" 4 0 "a_8_n19#" 8 0 "gnd" 8 0
+device mosfet nfet 6 -19 7 -18 2 8 "Gnd!" "a_n26_n19#" 4 0 "a_0_n19#" 8 0 "a_8_n19#" 8 0
+device mosfet nfet -2 -19 -1 -18 2 8 "Gnd!" "B1" 4 0 "a_n8_n19#" 8 0 "a_0_n19#" 8 0
+device mosfet nfet -10 -19 -9 -18 2 8 "Gnd!" "A1" 4 0 "gnd" 8 0 "a_n8_n19#" 8 0
+device mosfet nfet -28 -19 -27 -18 2 4 "Gnd!" "B1" 4 0 "gnd" 4 0 "a_n26_n19#" 4 0
+device mosfet nfet -46 -19 -45 -18 2 4 "Gnd!" "A1" 4 0 "gnd" 4 0 "a_n44_n19#" 4 0
+device mosfet pfet 53 27 54 28 2 8 "Vdd!" "cin" 4 0 "vdd" 8 0 "a_55_n19#" 8 0
+device mosfet pfet 35 27 36 28 2 8 "Vdd!" "a_0_n19#" 4 0 "vdd" 8 0 "a_37_n19#" 8 0
+device mosfet pfet 14 19 15 20 2 16 "Vdd!" "a_n44_n19#" 4 0 "a_0_n19#" 16 0 "a_n15_19#" 16 0
+device mosfet pfet 6 19 7 20 2 16 "Vdd!" "a_n26_n19#" 4 0 "a_n15_19#" 16 0 "a_0_n19#" 16 0
+device mosfet pfet -2 19 -1 20 2 16 "Vdd!" "B1" 4 0 "vdd" 16 0 "a_n15_19#" 16 0
+device mosfet pfet -10 19 -9 20 2 16 "Vdd!" "A1" 4 0 "a_n15_19#" 16 0 "vdd" 16 0
+device mosfet pfet -28 27 -27 28 2 8 "Vdd!" "B1" 4 0 "vdd" 8 0 "a_n26_n19#" 8 0
+device mosfet pfet -46 27 -45 28 2 8 "Vdd!" "A1" 4 0 "vdd" 8 0 "a_n44_n19#" 8 0
+subcap "a_n26_n19#" -14983
+subcap "a_0_n19#" -90696

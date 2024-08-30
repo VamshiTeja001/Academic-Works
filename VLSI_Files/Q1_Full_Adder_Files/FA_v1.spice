@@ -1,0 +1,110 @@
+* SPICE3 file created from FA_v1.ext - technology: scmos
+
+.option scale=1u
+
+M1000 out_AND2 out_XOR1 vdd Vdd pfet w=8 l=2
++  ad=48 pd=28 as=672 ps=400
+M1001 a_194_17# out_AND1 vdd Vdd pfet w=8 l=2
++  ad=40 pd=26 as=0 ps=0
+M1002 a_267_63# a_194_17# vdd Vdd pfet w=8 l=2
++  ad=48 pd=28 as=0 ps=0
+M1003 out_AND2 cin a_221_17# Gnd nfet w=8 l=2
++  ad=40 pd=26 as=48 ps=28
+M1004 gnd a_245_17# out_OR Gnd nfet w=8 l=2
++  ad=500 pd=354 as=48 ps=28
+M1005 a_245_17# out_AND2 vdd Vdd pfet w=8 l=2
++  ad=40 pd=26 as=0 ps=0
+M1006 a_59_17# not1_2 out_XOR1 Gnd nfet w=8 l=2
++  ad=48 pd=28 as=48 ps=28
+M1007 vdd B out_AND1 Vdd pfet w=8 l=2
++  ad=0 pd=0 as=48 ps=28
+M1008 a_140_17# not2_2 S Gnd nfet w=8 l=2
++  ad=48 pd=28 as=48 ps=28
+M1009 out_XOR1 not1_2 a_36_55# Vdd pfet w=16 l=2
++  ad=96 pd=44 as=256 ps=128
+M1010 not1_2 B gnd Gnd nfet w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1011 not2_1 out_XOR1 gnd Gnd nfet w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1012 S not2_2 a_117_55# Vdd pfet w=16 l=2
++  ad=96 pd=44 as=256 ps=128
+M1013 not2_2 cin gnd Gnd nfet w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1014 a_43_17# A gnd Gnd nfet w=8 l=2
++  ad=48 pd=28 as=0 ps=0
+M1015 vdd cin out_AND2 Vdd pfet w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1016 out_OR a_245_17# a_267_63# Vdd pfet w=8 l=2
++  ad=40 pd=26 as=0 ps=0
+M1017 not1_1 A gnd Gnd nfet w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1018 a_124_17# out_XOR1 gnd Gnd nfet w=8 l=2
++  ad=48 pd=28 as=0 ps=0
+M1019 vdd A a_36_55# Vdd pfet w=16 l=2
++  ad=0 pd=0 as=0 ps=0
+M1020 cout out_OR gnd Gnd nfet w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1021 vdd out_XOR1 a_117_55# Vdd pfet w=16 l=2
++  ad=0 pd=0 as=0 ps=0
+M1022 a_170_17# A gnd Gnd nfet w=8 l=2
++  ad=48 pd=28 as=0 ps=0
+M1023 gnd not1_1 a_59_17# Gnd nfet w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1024 not1_2 B vdd Vdd pfet w=8 l=2
++  ad=40 pd=26 as=0 ps=0
+M1025 not2_1 out_XOR1 vdd Vdd pfet w=8 l=2
++  ad=40 pd=26 as=0 ps=0
+M1026 gnd not2_1 a_140_17# Gnd nfet w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1027 a_194_17# out_AND1 gnd Gnd nfet w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1028 a_221_17# out_XOR1 gnd Gnd nfet w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1029 out_OR a_194_17# gnd Gnd nfet w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1030 a_36_55# not1_1 out_XOR1 Vdd pfet w=16 l=2
++  ad=0 pd=0 as=0 ps=0
+M1031 not2_2 cin vdd Vdd pfet w=8 l=2
++  ad=40 pd=26 as=0 ps=0
+M1032 a_117_55# not2_1 S Vdd pfet w=16 l=2
++  ad=0 pd=0 as=0 ps=0
+M1033 not1_1 A vdd Vdd pfet w=8 l=2
++  ad=40 pd=26 as=0 ps=0
+M1034 cout out_OR vdd Vdd pfet w=8 l=2
++  ad=40 pd=26 as=0 ps=0
+M1035 a_245_17# out_AND2 gnd Gnd nfet w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1036 out_XOR1 B a_43_17# Gnd nfet w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1037 out_AND1 A vdd Vdd pfet w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1038 S cin a_124_17# Gnd nfet w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1039 out_AND1 B a_170_17# Gnd nfet w=8 l=2
++  ad=40 pd=26 as=0 ps=0
+M1040 a_36_55# B vdd Vdd pfet w=16 l=2
++  ad=0 pd=0 as=0 ps=0
+M1041 a_117_55# cin vdd Vdd pfet w=16 l=2
++  ad=0 pd=0 as=0 ps=0
+C0 not1_2 vdd 5.22fF
+C1 not2_1 gnd 9.90fF
+C2 not1_1 gnd 9.90fF
+C3 a_194_17# vdd 11.52fF
+C4 vdd not2_2 5.22fF
+C5 cout Gnd 7.90fF
+C6 S Gnd 6.58fF
+C7 gnd Gnd 91.84fF
+C8 out_OR Gnd 27.08fF
+C9 a_245_17# Gnd 31.23fF
+C10 out_AND2 Gnd 22.38fF
+C11 a_194_17# Gnd 29.89fF
+C12 out_AND1 Gnd 22.38fF
+C13 not2_1 Gnd 32.31fF
+C14 not2_2 Gnd 4.84fF
+C15 not1_1 Gnd 32.31fF
+C16 not1_2 Gnd 23.78fF
+C17 vdd Gnd 85.07fF
+C18 A Gnd 87.64fF
+C19 B Gnd 2.46fF
+C20 out_XOR1 Gnd 99.34fF
+C21 cin Gnd 109.98fF
